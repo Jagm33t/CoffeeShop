@@ -1,0 +1,332 @@
+@use './partials/global' as *;
+
+$blue:#5BACC3;
+$black:#000000;
+$cream:#FFF0ED;
+
+.navbar1 , .header {
+  background-color: #FFF0ED;
+}
+
+
+
+h1,h2{
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+.navbar1  h2{
+  font-size: 2.06rem;
+  font-weight: 300;
+  display: inline-block;
+}
+.navbar1 li , .navbar1 ul{
+  display: inline-block;
+  
+}
+a{
+  text-decoration: none;
+  color: #393939;
+}
+.navbar1 li{
+  margin: 1.2rem;
+
+}
+#active2{
+  color: $blue;
+}
+h3{
+  font-size: 2.62rem;
+  font-weight: 300;
+}
+.header{
+  height: 40rem;
+ 
+}
+.header__info{
+display: inline-block;
+width: 30%;
+margin: 0rem 14rem 0rem 8rem;
+box-sizing: border-box;
+vertical-align:middle;
+
+
+}
+.header__img{
+
+  vertical-align:middle;
+}
+.header p{
+  font-size: 1.12rem;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.header h1{
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.header__button{
+  position: relative;
+  width: 11.25rem;
+  padding: 1.25rem;
+  margin:1.25rem 0rem 0rem;
+  background-color:$blue;
+  color: white;
+  border: none;
+  display: inline-block;
+  font-size: 1.31rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/*Creating empty transparent button to cover make border */
+.btn1{
+  border: 2px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 4px;
+  right:6px;
+  background: transparent;
+  cursor: pointer; 
+  transition:transform  ease-in;
+}
+.btn1:focus{
+  transform:translate(0.28rem,0.31rem);
+}
+
+.btn2{
+  border: 4px solid #5BACC3;
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 1.1rem;
+  right:1.1rem;
+  background: transparent;
+  cursor:pointer;
+
+}
+
+ .productinfo{
+   background-color:#F7F7F7 ;
+  
+ }
+
+.productinfo h2{
+  margin:0rem 35% 2.5rem 35%;
+  padding-top: 4rem;
+  
+  
+}
+.productinfo__card{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  Width: 330px;
+  Height: 440px;
+ margin: 20px;
+ padding-top: 4rem;
+ padding-bottom: 2rem;
+ Border-radius: 10px;
+ box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25); 
+ background-color:#FFF ;
+
+}
+.productinfo__card--img{
+  height: 17.5rem;
+  padding-bottom: 2.1rem;
+}
+.productinfo__overview{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+ 
+}
+
+.productinfo__card--details{
+  background-color:#FFF0ED ;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  gap: 0.4rem;
+  
+
+  
+}
+.productinfo__card--details h3{
+  margin-top: 0.2rem;
+  margin-bottom: 0.9rem;
+  margin-left: 1.5rem;
+}
+.productinfo__card--display{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 3.3rem;
+}
+.productinfo__card--price{
+  color:#5BACC3  ;
+  font-size: 2.12rem;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 3rem;
+  
+  
+  
+
+}
+
+.productinfo__card--details span{
+  margin-left: 1rem;
+  
+}
+
+.productinfo__card--quantity{
+  width: 50%;
+
+}
+
+.product__view{
+ 
+  padding:5rem 0rem 5rem 0rem;
+}
+.product__button{
+  width: 11.25rem;
+  font-size: 1.31rem;
+  padding: 1.25rem 3.5rem 1.24rem 3.5rem;
+  margin:1.25rem 0rem 0rem;
+  background-color:#5BACC3 ;
+  color: white;
+  border: none;
+  margin:2.5rem 40%;
+  position: relative;
+}
+.discount{
+  margin:8rem 4rem ;
+  
+  
+}
+.discount__details{
+  margin: 8rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.details__content{
+  width: 40%;
+}
+.details__content h2{
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+.details__content--p{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+.details__content--img{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.details__content--img img{
+  width: 3.12rem;
+
+}
+.details__content--btn{
+  width: 11.25rem;
+  font-size: 1.31rem;
+  padding: 1.25rem 3.5rem 1.24rem 3.5rem;
+  margin:2.25rem 0rem 0rem;
+  background-color:#5BACC3 ;
+  color: white;
+  border: none;
+  margin:2.5rem 0rem;
+  position: relative;
+  
+}
+.details__cover--img{
+  background-image:url(../assests/images/coldbrewbackground.png) ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:25rem ;
+  position: relative;
+}
+/* Adding rotating animation to picture*/
+@keyframes  rotating{
+ from{ transform: rotate(0deg);
+ }
+ to{
+   transform:rotate(360deg);
+ }
+}
+#rotate{
+  animation: rotating 2s linear infinite;
+}
+.details__cover--img img{
+  height: 17.5rem;
+  padding: 6rem;
+ 
+}
+
+
+
+
+@keyframes change-background {
+  0%{background-color: $black;}
+  100%{background-color:$blue}
+}
+.discount__p{
+  width: 90%;
+  color: #F7F7F7;
+  background-color: rgb(20, 20, 20);
+  font-size: 2.81rem;
+  font-weight: 400;
+  padding: 3%;
+  margin: 0rem 2rem 0rem 2rem;
+  animation: change-background 2.5s infinite ;
+}
+
+
+.discount span{
+  font-weight: 700;
+}
+
+.navbar1__img ,.footer__items--img{
+  width: 3.12rem;
+}
+
+footer{
+  background-color: #FFF0ED;
+  background-image: url(../assests/images/coffee-beans-logo-and-footer.svg);
+  background-size: 5.5rem;
+  background-repeat: no-repeat;
+  background-position-y:1rem ;
+  background-position-x: -1.5rem;
+  
+
+}
+
+.footer__items--p span{
+  font-weight: bold;
+ 
+
+}
+.footer__items{
+ 
+  display: inline-block;
+  margin:3rem 7%;
+}

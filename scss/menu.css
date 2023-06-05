@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+/*Creating empty transparent button to cover make border */
+.btn1 {
+  border: 2px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 4px;
+  right: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn2 {
+  border: 4px solid #5BACC3;
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 1.1rem;
+  right: 1.1rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #FFF0ED;
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon1 {
+  width: 3.12rem;
+  padding: 1rem 0.3rem;
+}
+
+.navhead, .navlink a {
+  text-decoration: none;
+  color: #393939;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  padding: 1rem;
+}
+
+.navbar__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  width: 95%;
+}
+
+#nav3 a {
+  color: #5BACC3;
+}
+
+.hero h1 {
+  background-color: #393939;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 18.75rem;
+  height: 12.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.coffeecircle {
+  width: 56.25rem;
+  height: 37.5rem;
+}
+
+.menutypes {
+  width: 100%;
+  background-color: #393939;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menutypes li {
+  display: inline-block;
+  padding: 1rem;
+  border-left: 5px solid #5BACC3;
+}
+
+.menutypes a {
+  color: #FFF;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url("../assests/images/coffee-circle.jpg");
+  width: 100%;
+  height: 43.75rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotdrinks, .colddrinks, .pasteries {
+  text-align: center;
+}
+
+.hotdrinks, .pasteries {
+  background-color: #FFF0ED;
+}
+
+.hotdrinks ul, .colddrinks ul, .pasteries ul {
+  list-style-type: none;
+}
+
+.colddrinks {
+  background-color: #F7F7F7;
+}
+
+.hotdrinks p, .colddrinks p, .pasteries p {
+  font-style: italic;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.menu__details--p {
+  width: 30%;
+  padding-left: 33%;
+}
+
+h1, h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3, .navhead {
+  font-size: 2.06rem;
+  font-weight: 300;
+}
+
+.navlink, .menutypes a {
+  font-size: 1.31rem;
+  list-style-type: none;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu__prices {
+  color: #5BACC3;
+}
+
+.btn2 {
+  border: 4px solid #5BACC3;
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  bottom: 1.1rem;
+  right: 1.1rem;
+  background: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=menu.css.map */
